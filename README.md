@@ -1,4 +1,5 @@
-# 🤖 Automatizando o DJI Tello com Python
+# Automatizando o DJI Tello com Python
+![tello](https://github.com/HerculesDraycon/automatizando-tello-com-python/blob/main/img/tello.jpg)
 O projeto conta com algoritmos que foram desenvolvidos em Python3 para controlar o drone DJI Tello a partir do computador e alguns processos de automação que utilizam a camera e sensores do aparelho como ferramenta de fornecimento de dados que são processados e aproveitados no software.
 
 ## 📸 Projeto 1 - Vigilância
