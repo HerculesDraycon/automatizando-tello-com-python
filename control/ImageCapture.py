@@ -1,7 +1,7 @@
-import cv2                       #Library for capture show on the computer
 import KeyboardModule as kp      #Importing the keyboard module
+import cv2                       #Library for capture show on the computer
+import time                      #Library for manipulation of events based in time
 from djitellopy import tello     #Library for interaction with Tello
-from time import sleep           #Library for manipulation of events based in time
 
 kp.init()    #Initialize the keyboard module to be able to detect keys being pressed
 
@@ -10,6 +10,8 @@ drone.connect()                #Stablish connection with the Tello
 
 print("The drone battery level is: ")
 print(drone.get_battery())     #Get the drone battery level
+
+global image                   #Set image as a global access variable
 
 drone.streamon()               #Gives the frames of the camera to be processed
 
@@ -30,7 +32,11 @@ def getInput():
     if kp.getKey("d"): yaw = speed
     elif kp.getKey("a"): yaw = -speed
 
-    if kp.getKey("g"): drone.land()
+    if kp.getKey("g"): drone.land(); time.sleep(3)
+
+    if kp.getKey("z"): 
+        cv2.imwrite(f'img/{time.time()}.jpg', image)
+        time.sleep(0.3)      #Delay that prevents the cv2 of taking too many pictures
 
     return [sides, boards, alt, yaw]
 
