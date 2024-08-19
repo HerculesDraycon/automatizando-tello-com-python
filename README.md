@@ -21,6 +21,8 @@ Enquanto o rosto é detectado, o drone verifica os parâmetros e acompanha os mo
 ### Tecnologias utilizadas no projeto:
 - 🐍 Python 3.7.6 (Versão mais estável encontrada para comunicação com o Tello Drone)
 - Virtual Studio Code como IDE e terminal de comunicação
+- OpenCV for Python (Biblioteca mais indicada para transmissão de imagem e reconhecimento facial)
+- djitellopy (Biblioteca mais indicada para conexão e controle do drone através do PC)
 
 ### 📝 Licença (MIT License)
 [Copyright (c) 2024 Hércules Sampaio Oliveira](https://github.com/HerculesDraycon/automatizando-tello-com-python/blob/main/LICENSE)<br>
