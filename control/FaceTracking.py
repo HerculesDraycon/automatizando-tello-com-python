@@ -17,7 +17,7 @@ time.sleep(2.2)
 
 proximityRange = [6200, 6800]
 pid = [0.4, 0.4, 0]
-w, h = 360, 240
+w, h = 720, 480
 pError = 0
 
 #This function is responsible for set the resources of face detecting and perform it on the code
