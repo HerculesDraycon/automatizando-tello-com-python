@@ -17,6 +17,8 @@ Esse projeto conta com o auxílio da famigerada biblioteca OpenCV - Haarcascade.
 
 Enquanto o rosto é detectado, o drone verifica os parâmetros e acompanha os movimentos, se aproximando, afastando e rotacionando quando necessário. O software também conta com instruções para que o drone não realize manobras bruscas ou indesejadas quando perde o alvo da zona de detecção.
 
+## Capturas realizadas:
+![captures](https://github.com/HerculesDraycon/automatizando-tello-com-python/blob/main/img/capturas.png)
 
 ### Tecnologias utilizadas no projeto:
 - 🐍 Python 3.7.6 (Versão mais estável encontrada para comunicação com o Tello Drone)
