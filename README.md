@@ -16,3 +16,15 @@ No arquivo [FaceTracking.py](https://github.com/HerculesDraycon/automatizando-te
 Esse projeto conta com o auxílio da famigerada biblioteca OpenCV - Haarcascade. Em seu [arquivo xml](https://github.com/HerculesDraycon/automatizando-tello-com-python/blob/main/resources/haarcascade_frontalface_default.xml) os parâmetros já estão estabelecidos para que quando utilizados no código fonte Python sejam capazes de identificar a parte frontal do rosto.<br>
 
 Enquanto o rosto é detectado, o drone verifica os parâmetros e acompanha os movimentos, se aproximando, afastando e rotacionando quando necessário. O software também conta com instruções para que o drone não realize manobras bruscas ou indesejadas quando perde o alvo da zona de detecção.
+
+
+### Tecnologias utilizadas no projeto:
+- 🐍 Python 3.7.6 (Versão mais estável encontrada para comunicação com o Tello Drone)
+- Virtual Studio Code como IDE e terminal de comunicação
+- OpenCV for Python (Biblioteca mais indicada para transmissão de imagem e reconhecimento facial)
+- djitellopy (Biblioteca mais indicada para conexão e controle do drone através do PC)
+
+### 📝 Licença (MIT License)
+[Copyright (c) 2024 Hércules Sampaio Oliveira](https://github.com/HerculesDraycon/automatizando-tello-com-python/blob/main/LICENSE)<br>
+Contém todos os termos de esclarecimento em relação ao uso do software.
+
